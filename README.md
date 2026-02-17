@@ -29,3 +29,7 @@ SHAP reveals that a higher **loan_percent_income** and **loan_grade** are the st
 
 ## 📝 Conclusion
 This project moves beyond simple binary classification. By integrating SHAP, we provide the "Why" behind every decision. This capability is crucial for financial institutions to meet regulatory requirements.
+
+You can access and download the required files through the link below to run the inference or reproduce the results.
+https://drive.google.com/drive/folders/1NUUfPcUDBtafO0klUAxM1uSzFlSAZtnd
+
