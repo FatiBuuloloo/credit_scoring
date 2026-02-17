@@ -25,7 +25,7 @@ Model showing close gap between training and cross-validation AUC-ROC score.
 The model achieves a Lift Index of 4.5x in the 1st decile. Mathematically, this means the risk analyst team can be 4.5 times more effective at identifying potential defaulters by focusing only on the top 10% of high-risk applicants compared to random sampling.
 ### 3. Explainability (SHAP Summary)
 ![shap](Visualization/shap.png)
-SHAP reveals that a higher loan_percent_income and a loan_grade are the strongest predictors of default risk. Conversely, a higher person_income significantly acts as a protective factor, lowering the probability of default.
+SHAP reveals that a higher **loan_percent_income** and **loan_grade** are the strongest predictors of default risk. Conversely, a higher **person_income** significantly acts as a protective factor, lowering the probability of default.
 
 ## 📝 Conclusion
 This project moves beyond simple binary classification. By integrating SHAP, we provide the "Why" behind every decision. This capability is crucial for financial institutions to meet regulatory requirements.
