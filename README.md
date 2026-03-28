@@ -19,7 +19,7 @@ Dataset: [Kaggle Link](https://www.kaggle.com/datasets/laotse/credit-risk-datase
 ## Analytics Highlights
 ### 1. Model Stability (Learning Curve)
 ![learning_curve](Visualization/learning_curve.png)
-Model showing close gap between training and cross-validation AUC-ROC score.
+XGBoost model showing close gap between training and cross-validation AUC-ROC score.
 ### 2. Business Impact (Lift Chart)
 ![decile](Visualization/decile.png)
 ![lift_graph](Visualization/lift_graph.png)
