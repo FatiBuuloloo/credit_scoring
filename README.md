@@ -18,14 +18,14 @@ Dataset: [Kaggle Link](https://www.kaggle.com/datasets/laotse/credit-risk-datase
 
 ## Analytics Highlights
 ### 1. Model Stability (Learning Curve)
-![learning_curve](Visualization/learning_curve.png)
+![learning_curve](image/learning_curve.png)
 XGBoost model showing close gap between training and cross-validation AUC-ROC score.
 ### 2. Business Impact (Lift Chart)
-![decile](Visualization/decile.png)
-![lift_graph](Visualization/lift_graph.png)
+![decile](image/decile.png)
+![lift_graph](image/lift_graph.png)
 The model achieves a Lift Index of 4.5x in the 1st decile. Mathematically, this means the risk analyst team can be 4.5 times more effective at identifying potential defaulters by focusing only on the top 10% of high-risk applicants compared to random sampling.
 ### 3. Explainability (SHAP Summary)
-![shap](Visualization/shap.png)
+![shap](image/shap.png)
 SHAP reveals that a higher **loan_percent_income** and **loan_grade** are the strongest predictors of default risk. Conversely, a higher **person_income** significantly acts as a protective factor, lowering the probability of default.
 
 ## Conclusion
