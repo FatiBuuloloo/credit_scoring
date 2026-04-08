@@ -4,6 +4,10 @@
 This project focuses on developing a robust Credit Scoring System using Machine Learning to identify high-risk borrowers. A key highlight of this work is the integration of Explainable AI (XAI) via **SHAP** (SHapley Additive exPlanations). The dataset was gathered from Kaggle.
 Dataset: [Kaggle Link](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 
+Live Demo: [Click Here](https://viewww-loan-approval-shap-xai.hf.space)
+
+Repository: [View on Hugging Face](https://huggingface.co/spaces/Viewww/Loan_Approval_SHAP-XAI/tree/main)
+
 ## Tech Stack
 - Python (Pandas, NumPy, Scikit-Learn)
 - Modeling: XGBoost, CatBoost, Random Forest, Balanced Random Forest.
@@ -30,7 +34,3 @@ SHAP reveals that a higher **loan_percent_income** and **loan_grade** are the st
 
 ## Conclusion
 This project moves beyond simple binary classification. By integrating SHAP, we provide the "Why" behind every decision. This capability is crucial for financial institutions to meet regulatory requirements.
-
-You can access and download the required files through the link below to run the inference or reproduce the results.
-[Gdrive Link](https://drive.google.com/drive/folders/1NUUfPcUDBtafO0klUAxM1uSzFlSAZtnd)
-
